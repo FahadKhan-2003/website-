@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    background-color: grey;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+.box{
+    display: flex;
+}
+
+.learning{
+    width: 50%;
+    height: 38vh;
+    text-align: center;
+    padding-top: 200px;
+    opacity: 80%;
+    color: white;
+    background-image: url(assets/imges/indian-kids-science-concept-cute-little-studying-using-microscope-diagrams-doodles-drawn-over-green-91373953.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.box1{
+    width: 50%;
+    height: 50vh;
+    margin-top: 0%;
+}
+
+img{
+    width: 50vw;
+    height: 59vh;
+}
+
+.container1{
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+    align-items: center;
+    margin-top: -8px;
+}
+
+.boxes{
+    text-align: center;
+    width: 20vw;
+    height: 23vh;
+    padding-top: 50px;
+    font-size: 30px;
+    background-color: rgb(255, 79, 255);
+}
+
+.box2{
+    text-align: center;
+    width: 20vw;
+    height: 23vh;
+    padding-top: 50px;
+    font-size: 30px;
+    background-color: rgb(0, 136, 255);
+}
+
+.box3{
+    text-align: center;
+    width: 20vw;
+    height: 23vh;
+    padding-top: 50px;
+    font-size: 30px;
+    background-color: rgb(232, 232, 15);
+}
+
+.box4{
+    text-align: center;
+    width: 20vw;
+    height: 23vh;
+    padding-top: 50px;
+    font-size: 30px;
+    background-color: purple;
+}
+
+.box5{
+    text-align: center;
+    width: 20vw;
+    height: 23vh;
+    padding-top: 50px;
+    font-size: 30px;
+    background-color: greenyellow;
+}
+
+.box6{
+    text-align: center;
+    width: 20vw;
+    height: 23vh;
+    padding-top: 50px;
+    font-size: 30px;
+    background-color: rgb(2, 2, 126);
+}
+
+
